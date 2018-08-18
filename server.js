@@ -17,10 +17,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// 
+// method override
 app.use(methodOverride('_method'));
 
-// Set Handlebars.
+// set handlebars
 let exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
