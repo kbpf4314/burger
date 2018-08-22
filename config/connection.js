@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
     port: 3306,
     host: "localhost",
     user: "root",
-    password: "",
+    password: "Ccmi!1974",
     database: "burger_db"
   });
   
